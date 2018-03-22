@@ -1,0 +1,84 @@
+Hello and welcome to the "Variables" lesson of your training
+I am Zachary Lawton, (Gilbert,) Lead Coder of the 2017/2018 Season
+Variables are one of the most fundamental parts of your code
+
+"So, what is a variable?" you may ask
+Well, a variable is something that stores information
+This information could range from how much money is in your bank account, to if you have ever been to the Grand Canyon
+
+There are many different types of variables in Java
+There are two main types of variables: string and numeric
+
+String variables store text. For example, this sentence could be stored as the data in a string variable
+The only string variable that exists is quite simply called "String". (Yes, the capital is important)
+Strings are mainly useful for two things here at robotics: feedback and logic
+Feedback is important to tell us what the robot is currently doing
+If for example, the robot is driving forward, than we want the phones to tell us "The robot is driving forward"
+That right there is a string! It holds the text as information
+Without the stored text information, the phones would not know what to tell us when the robot is driving forward
+
+There are a lot more numeric variables than string variables
+As you could guess, numeric variables store numbers
+"But if all they do is store numbers, than how come there are so many of them?" I hear you asking
+Well, strings actually work by using arrays, (which are basically lists,) that are indexed by the integer variable
+This simply means that strings are actually a list, where each character is an item on it
+Think of this as a shopping list where you need to buy food
+On this list, each item corresponds to a number. Ex. I have four things to get at the store. The second item is "pizza"
+However, with a string, instead of your list looking like:
+1.cookies
+2.pizza
+3.pasta
+4.brownies
+
+It looks like:
+0.c
+1.o
+2.o
+3.k
+4.i
+5.e
+6.s
+And so on
+
+As I mentioned before, this list is indexed by the integer variable
+The integer variable stores numbers. The integer variable can store numbers anywhere from -2,147,483,648 to 2,147,483,647
+That means that the string can hold over two separate billion letters in it! Because of that, there is only one string variable
+However, there are more numeric variables, as it is easier to type out the number 2,147,483,647 than to type two billion letters
+"Well than why don't we just use strings to hold numbers?" I sense you thinking
+The reason we don't do that is because strings have a trade off
+The only way you can compare strings is to see if one has the exact same text as the other
+And when I say exact, I mean that with strings, "1" is not the same as "01" or "1.00"
+Also, you can only set strings to a certain value
+The reason for this is that text can also be stored in a string, and not just numbers
+"Hi" is different than "hi" so the code can tell capitals, and because of that, "1" is not the same as "1.00" in strings
+Also, it is impossible to compute if "6chicken2 > turkey23," as they are texts and not numbers
+
+With numeric variables, you can compare using >, <, or =, and change the value by increments
+For example, you can add "5" to "1" to get "6"
+You can also check if "5 > 2" or if "66 > 154"
+There are many different types of numeric variables because there are two types of numeric variables
+Also, each kind of variable in those categories has a different range of sizes
+This is important because if we will only ever be storing numbers up to 10, we don't need to store 9,223,372,036,854,775,807
+Doing this saves a lot of space on the computer, and puts less strain on processing
+
+The first kind of numeric variable is one that can not have decimals in it
+We use: "boolean," "byte," "short," "int," and "long,"
+Here are their ranges:
+
+boolean                          0 :                         1 *Note: booleans are set to false and true, not 0 and 1.
+byte	                      -128 :                       127  However, false and true correspond to 0 and 1 behind the scenes of the code*
+short	                   -32,768 :                    32,767
+int		            -2,147,483,648 :             2,147,483,647
+long	-9,223,372,036,854,775,808 : 9,223,372,036,854,775,807
+
+The second kind of numeric variable is, as you guessed, one that does have decimals in it
+We use: "float" and "double"
+Here are their ranges:
+
+float    (positive and negative)    1.40239846 x 10^-45          : 3.40282347 x 10^38
+double	 (positive and negative)    4.9406564584124654 x 10^-324 : 1.7976931348623157 x 10^308
+
+Now, you may be wondering, what are the practicalities of some of these variables?
+Well, we will find out in the next lesson!
+
+Come back and read through this again after you read the next lesson. Things might start to make more sense!
