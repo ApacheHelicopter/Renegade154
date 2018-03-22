@@ -1,0 +1,33 @@
+*NOT FINISHED. THIS IS A WIP*
+
+Welcome to Java!
+Trust me, it is much better than block code
+You will actually learn real life skills here (#RipBlockCode)
+
+I am Zachary Lawton, the lead coder of Team 154 Renegade for the 2017/2018 season, and I am here to tell you about basic logic
+But first, what is code? That's a better place to start off with!
+Code is quite simply a giant logic gate. If certain parameters are met, certain things will happen
+Once you learn it, you will start to look at everything like it's code! (Or maybe that's just me)
+
+For example, if you go to the store and are going to buy $50 worth of that sweet sweet chocolate milk that you have been craving, there is logic involved when purchasing
+If you are cashing out at the register, and the nice Walmart lady has rung up your chocolate milk, and you can afford it, then you are able to buy it
+If all of that is true, and you then paid for the chocolate milk, then it is now yours
+Sounds simple, right? Well it is! that right there is a logic gate. When all of the inputs are true, an output is given
+
+And well, sorry to burst your bubble, but I kinda lied to you last sentence. That is minimalistic logic
+There are a lot of common sense things that you and I know, however the computer does not
+For example, with the chocolate milk analogy
+If you are purchasing chocolate milk, and are at the cash register, it is more like:
+If you are alive, and are able to communicate, and are in the United States, and you are in Rhode Island, and you are in the North Smithfield Walmart,
+and you are in the checkout line, and there is nobody in front of you, and you have 20 jugs of chocolate milk, and they have all been scanned, and etc.
+And remember, that is only one certain scenario
+And on top of that, what determines that you are in the North Smithfield Walmart?
+Well, that is another piece of logic
+For example, you must have recognized the Walmart, and recognized the parking lot, and recognized the roads leading up to it, and the route you have taken,
+and the scenery on the way, along with a long list of other things, such as the surrounding buildings, the people you see around you, how long it took to get there,
+and so on
+And then, what determines that you recognize something?
+It could be its size, shape, color, scenery around it, its feel, its smell, and so on and so on
+And then, how can you determine what color something is?
+How can you determine the shape of an object?
+All of these things are stuff that we need to tell the computer how do to, and its not always easy
