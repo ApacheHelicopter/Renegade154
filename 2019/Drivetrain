@@ -1,4 +1,12 @@
-//NEW CODE (the traditional RC car controls) - Everything under "Drive Train" goes in the loop. The voids go AFTER the loop, but before the end of TeleOp
+//NEW CODE (the traditional RC car controls) - Everything under "Drive Train" goes in the loop. The voids go AFTER the loop, but before the end of TeleOp. Everything under "Variables" goes before the code
+//Variables
+    double powerModifier = Renegade2019_Variables.powerModifierNormal; //This ties in with the Variables code. Replace to equal 1.00 if you don't have it!
+    double drivingPowerLeft     = 0;
+    double drivingPowerRight    = 0;
+    double drivingPowerLeftADD  = 0;
+    double drivingPowerRightADD = 0;
+    double leftPower            = 0;
+    double rightPower           = 0;
 //Drive Train
         //Right Strafe
         if (leftStickRightX()) {
