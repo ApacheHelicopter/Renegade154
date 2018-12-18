@@ -1,4 +1,4 @@
-NEW CODE:
+//NEW CODE (the traditional RC car controls) - Everything under "Drive Train" goes in the loop. The voids go AFTER the loop, but before the end of TeleOp
 //Drive Train
         //Right Strafe
         if (leftStickRightX()) {
@@ -37,7 +37,7 @@ NEW CODE:
             }
         }
         
-VOIDS FOR NEW CODE: 
+//VOIDS FOR NEW CODE: 
     //Easy way to set power of drivetrain
     public void motors(double FL, double FR, double BL, double BR)
     {
@@ -68,7 +68,7 @@ VOIDS FOR NEW CODE:
         return robot.motorFL.getPower() < 0 && robot.motorFR.getPower() > 0 && robot.motorBL.getPower() < 0 && robot.motorBR.getPower() > 0;
     }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-OLD CODE:
+//OLD CODE (tank drive) - Everything under "Drive Train" goes in the loop. The voids go AFTER the loop, but before the end of TeleOp
 //Drive Train
         //Right Strafe
         if (gamepad1.left_stick_y < gamepad1.left_stick_x && gamepad1.left_stick_y > -gamepad1.left_stick_x)
@@ -127,7 +127,7 @@ OLD CODE:
                 telemetry.addLine("Driving Normally");
             }
         }
-OLD CODE VOIDS:
+//OLD CODE VOIDS:
     //Easy way to set power of drivetrain
     public void motors(double FL, double FR, double BL, double BR)
     {
